@@ -6,7 +6,7 @@ const connectors = [
  [1,"L","Gelb","Blinker links","1,5 mm²"],[2,"54g","Blau","Nebelschlussleuchte","1,5 mm²"],[3,"31","Weiß","Masse für Kontakte 1–8","2,5 mm²"],[4,"R","Grün","Blinker rechts","1,5 mm²"],[5,"58R","Braun","Schluss-/Begrenzungslicht rechts","1,5 mm²"],[6,"54","Rot","Bremslicht","1,5 mm²"],[7,"58L","Schwarz","Schluss-/Begrenzungslicht links","1,5 mm²"]
  ],
  note:"Die ISO-1724-Farben sind die üblichen genormten Leitungsfarben. Bei Reparaturen trotzdem die vorhandene Leitung prüfen.",
- images:{socket:"https://commons.wikimedia.org/wiki/Special:FilePath/1-1111-Anhaeng_buchse_7-pol-ISO1724.jpg", socketSource:"https://commons.wikimedia.org/wiki/File:1-1111-Anhaeng_buchse_7-pol-ISO1724.jpg"}
+ images:{plug:"https://www.baeder-automotive.com/artikelobjekte/large/Artikel/Asp%C3%B6ck/13%203000%20107.jpg", plugSource:"https://www.baeder-automotive.com/en/plug-7-pin-iso-1724-srewed-connection-335273", socket:"https://commons.wikimedia.org/wiki/Special:FilePath/1-1111-Anhaeng_buchse_7-pol-ISO1724.jpg", socketSource:"https://commons.wikimedia.org/wiki/File:1-1111-Anhaeng_buchse_7-pol-ISO1724.jpg"}
 },
 {
  id:"iso11446", voltage:"12 V", name:"13-polig Anhänger – ISO 11446",
@@ -23,7 +23,8 @@ const connectors = [
  pins:[
  [1,"31","Weiß","Masse","—"],[2,"58L","Schwarz","Stand-/Schlusslicht links","—"],[3,"L","Gelb","Blinker links","—"],[4,"54","Rot","Bremslicht","—"],[5,"R","Grün","Blinker rechts","—"],[6,"58R","Braun","Stand-/Schlusslicht rechts","—"],[7,"—","Blau","Zusatzfunktion Aux 2 / Bremskontrolle (systemabhängig)","—"]
  ],
- note:"24-V-System. Die Zusatzfunktion an Kontakt 7 ist anhand Fahrzeug-/Anhängerunterlagen zu verifizieren."
+ note:"24-V-System. Die Zusatzfunktion an Kontakt 7 ist anhand Fahrzeug-/Anhängerunterlagen zu verifizieren.",
+ images:{plug:"https://www.plastimat.de/images/produkte/nfz/7_pol_stecker_1185_1.jpg",plugSource:"https://www.plastimat.de/produkte/automotive/steckverbindungen/nfz-24-v/7-polig/stecker-7-polig-iso-1185",socket:"https://www.erich-jaeger.com/fileadmin/_processed_/b/2/csm_111060_01__product_image_eee5e9322d.png",socketSource:"https://www.erich-jaeger.com/en-US/products/111060"}
 },
 {
  id:"iso3731", voltage:"24 V", name:"7-polig Lkw – ISO 3731 (Typ S, weiß)",
@@ -31,7 +32,8 @@ const connectors = [
  pins:[
  [1,"31","Weiß / Grün","Masse für Kontakte 9–15 des 15-poligen Systems","—"],[2,"—","Schwarz","Reserve / CAN-H je nach Ausführung","—"],[3,"—","Gelb","Rückfahrleuchte","—"],[4,"—","Rot","Allgemeine Stromversorgung (+)","—"],[5,"—","Grün","Reserve / CAN-L je nach Ausführung","—"],[6,"—","Braun","Aux 3 / Liftachse","—"],[7,"—","Blau","Nebelschlussleuchte","—"]
  ],
- note:"Die Zusatzfunktionen (insbesondere CAN/Reserve) sind fahrzeug- und aufbauabhängig. Nicht allein anhand der Farbe anklemmen."
+ note:"Die Zusatzfunktionen (insbesondere CAN/Reserve) sind fahrzeug- und aufbauabhängig. Nicht allein anhand der Farbe anklemmen.",
+ images:{plug:"https://www.plastimat.de/images/produkte/nfz/7_pol_stecker_3731_1.jpg",plugSource:"https://www.plastimat.de/produkte/automotive/steckverbindungen/nfz-24-v/7-polig/stecker-7-polig-iso-3731",socket:"https://www.plastimat.de/images/produkte/nfz/7_pol_steckdose_1.jpg",socketSource:"https://www.plastimat.de/produkte/automotive/steckverbindungen/nfz-24-v/7-polig/steckdose-7-polig"}
 },
 {
  id:"iso12098", voltage:"24 V", name:"15-polig Lkw – ISO 12098",
@@ -39,7 +41,8 @@ const connectors = [
  pins:[
  [1,"L","Gelb","Blinker links","—"],[2,"R","Grün","Blinker rechts","—"],[3,"—","Blau","Nebelschlussleuchte","—"],[4,"31","Weiß","Masse für Kontakte 1–8","—"],[5,"58L","Schwarz","Stand-/Schlusslicht links","—"],[6,"58R","Braun","Stand-/Schlusslicht rechts","—"],[7,"54","Rot","Bremslicht","—"],[8,"—","Rosa / Pink","Rückfahrleuchte","—"],[9,"—","Orange","Allgemeine Stromversorgung (+)","—"],[10,"—","Grau","Aux 1 / Verschleißanzeige","—"],[11,"—","Weiß / Schwarz","Aux 2 / Bremskontrolle Anhänger","—"],[12,"—","Weiß / Blau","Aux 3 / Liftachse","—"],[13,"31","Weiß / Rot","Masse für Kontakte 9–15","—"],[14,"—","Weiß / Grün","CAN-H / Datenkommunikation (Ausstattungsabhängig)","—"],[15,"—","Weiß / Braun","CAN-L / Datenkommunikation (Ausstattungsabhängig)","—"]
  ],
- note:"Zusatzfunktionen 10–12 und CAN-Leitungen nur nach dem konkreten Fahrzeug-/Aufbauplan anschließen. ISO 12098 ist ein 24-V-System."
+ note:"Zusatzfunktionen 10–12 und CAN-Leitungen nur nach dem konkreten Fahrzeug-/Aufbauplan anschließen. ISO 12098 ist ein 24-V-System.",
+ images:{plug:"https://www.erich-jaeger.com/fileadmin/import/media/photo/141168_01__product_image.png",plugSource:"https://www.erich-jaeger.com/de/products/standards/iso-12098",socket:"https://www.erich-jaeger.com/fileadmin/import/media/photo/141168_01__product_image.png",socketSource:"https://www.erich-jaeger.com/de/products/standards/iso-12098"}
 }
 ];
 
@@ -63,7 +66,7 @@ function visualMarkup(){
  const img=selected.images?.[side];
  if(img){
   const source=selected.images[side+"Source"];
-  return `<div class="connector-visual"><div class="photo-frame"><img src="${img}" alt="${esc(selected.standard)} ${side==="plug"?"Stecker":"Steckdose"}" loading="lazy" onerror="this.parentElement.innerHTML='<p>Bild konnte nicht geladen werden.</p>'"></div><div class="photo-credit">Bildquelle: <a href="${source}" target="_blank" rel="noopener">Wikimedia Commons</a></div></div>`;
+  return `<div class="connector-visual"><div class="photo-frame"><img src="${img}" alt="${esc(selected.standard)} ${side==="plug"?"Stecker":"Steckdose"}" loading="lazy" onerror="this.parentElement.innerHTML='<p>Bild konnte nicht geladen werden.</p>'"></div><div class="photo-credit">Bildquelle: <a href="${source}" target="_blank" rel="noopener">Hersteller / Bildquelle</a></div></div>`;
  }
  return `<div class="connector-visual">${schematicMarkup()}</div>`;
 }
@@ -71,7 +74,7 @@ function renderDetails(){
  const rows=selected.pins.map(p=>`<tr><td class="pin">${p[0]}</td><td><b>${esc(p[1])}</b></td><td><span class="wire"><i class="swatch ${colorClass(p[2])}"></i>${esc(p[2])}</span></td><td>${esc(p[3])}</td><td>${esc(p[4])}</td></tr>`).join("");
  details.innerHTML=`<div class="detailhead"><div><div class="eyebrow">${esc(selected.standard)} · ${selected.voltage}</div><h2>${esc(selected.name)}</h2><p>${esc(selected.description)}</p></div><span class="pill">${selected.pins.length} Kontakte</span></div>
  <div class="sidebar"><span>Ansicht wählen:</span><button data-side="plug" class="${side==="plug"?"chosen":""}">Stecker</button><button data-side="socket" class="${side==="socket"?"chosen":""}">Dose</button></div>
- <div class="viewhint">${side==="plug"?"Steckeransicht":"Dosenansicht"} – jeweils die Kontaktseite, soweit ein passendes Foto verfügbar ist.</div>
+ <div class="viewhint">${side==="plug"?"Steckeransicht":"Dosenansicht"} – Produktfoto des passenden Steckverbinders.</div>
  ${visualMarkup()}
  <div class="tablewrap"><table><thead><tr><th>Nr.</th><th>Klemme</th><th>Kabelfarbe</th><th>Funktion</th><th>Querschnitt*</th></tr></thead><tbody>${rows}</tbody></table></div>
  <p class="note"><b>Hinweis:</b> ${esc(selected.note)}</p>
