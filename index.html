@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#12243a"><meta name="description" content="Offline-Nachschlagewerk für 12-V- und 24-V-Fahrzeug- und Anhängerstecker.">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-192.png">
+<title>SteckerKompass – 12V / 24V</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brandmark">SK</div><div><h1>SteckerKompass</h1><p>12 V · 24 V · Stecker & Dosen</p></div><span class="offline">Offline bereit</span></header>
+<main>
+<section class="intro"><h2>Belegung schnell finden</h2><p>Kontakt-Nummer, Klemme, Kabelfarbe und Funktion – übersichtlich an einem Ort.</p></section>
+<div class="controls"><input id="search" type="search" placeholder="Stecker, Norm oder Funktion suchen…" aria-label="Suchen">
+<select id="voltage" aria-label="Spannung filtern"><option value="all">Alle Spannungen</option><option value="12 V">Nur 12 V</option><option value="24 V">Nur 24 V</option></select></div>
+<div class="layout"><nav><h3>Anschlüsse</h3><div id="connectorList"></div></nav><article id="details" aria-live="polite"></article></div>
+<section class="safety"><h3>Wichtiger Sicherheitshinweis</h3><p>Kabelfarben sind eine Orientierung, kein sicherer Nachweis. Bei Reparatur, Umbau oder unbekannter Verkabelung jeden Leiter mit Schaltplan und geeignetem Messgerät identifizieren. Vor Arbeiten spannungsfrei schalten; Plusleitungen passend absichern. Stecker- und Dosenansicht sowie die Blickrichtung beachten. 12-V- und 24-V-Systeme nicht verwechseln.</p></section>
+<section class="sources"><h3>Quellen & Normhinweise</h3><ul>
+<li><a href="https://www.erich-jaeger.com/de/products/standards/iso-11446/iso-11446-umfang-und-anwendung" target="_blank" rel="noopener">Erich Jaeger – ISO 11446, Kontaktbelegung</a></li>
+<li><a href="https://www.hella.com/partnerworld/assets/documents/1267_BR_Fahrzeuginstallation_HELLA_EN_print.pdf" target="_blank" rel="noopener">HELLA – Fahrzeuginstallation, 13-polig ISO 11446</a></li>
+<li><a href="https://www.aohandel.de/anhaenger-lkw-steckeranschluss" target="_blank" rel="noopener">AO Handel – Lkw-Stecker ISO 1185 / 3731 / 12098</a></li>
+<li><a href="https://www.erich-jaeger.com/de/products/standards/iso-7638-1/iso-7638-1-und-2-umfang-und-anwendung" target="_blank" rel="noopener">Erich Jaeger – ABS/EBS ISO 7638-1 und -2</a></li>
+<li><a href="https://www.hella.com/techworld/assets/documents/1267_BR_Fahrzeuginstallation_HELLA_EN_print.pdf" target="_blank" rel="noopener">HELLA – ISO 7638 ABS/EBS Kontaktbelegung</a></li>
+<li><a href="https://assets.hoelzle.ch/image/upload/pdf/ISO-Bus_Pinbelegung.pdf" target="_blank" rel="noopener">ISO 11783-2 – ISOBUS Kontaktbelegung</a></li>
+<li><a href="https://www.jaeger-automotive.de/wp-content/uploads/Technisches_Handbuch_03-2019_mid.pdf" target="_blank" rel="noopener">Jaeger Automotive – Technisches Handbuch</a></li>
+</ul><p>Die App enthält ausgewählte genormte Anhänger-, ABS/EBS- und ISOBUS-Stecksysteme. Sie ist kein vollständiger Ersatz für fahrzeugspezifische Stromlaufpläne. Bei ISOBUS sind Kabelfarben teilweise nicht normativ festgelegt; deshalb wird dort ausdrücklich „Nicht festgelegt“ angezeigt.</p></section>
+</main><footer>SteckerKompass · Kostenlose private Nutzung · Version 1.0</footer>
+<script src="app.js"></script><script>if("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js").catch(()=>{});</script>
+</body></html>
